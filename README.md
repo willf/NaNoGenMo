@@ -1,7 +1,7 @@
 Novel generation
 ----------------
 
-Requires Python, and the folloiwng modules: nltk and wordnik, and a Wordnik API key (http://dev.wordnik.com).
+Requires Python, and the folloiwng modules: nltk and wordnik, and a Wordnik API key (http://developer.wordnik.com/).
 
 The basic idea is to take text, for example, the text from 1984, and replace open class words (that is, 
 for my purposes, common nouns, verbs, adjectives and adverbs) with other words that occur in the same
