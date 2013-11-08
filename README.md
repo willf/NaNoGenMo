@@ -10,11 +10,11 @@ and then sometimes call Wordnik for more information.
 
 Version 1: just call the Wordnik API
 
+Version 2: don't call on BE and HAVE verbs; respect capitalization; better spacing
+
 TODO:
 
-Version 2: don't call on BE and HAVE verbs
-
-Version 3: respect plurals and verb forms; respect capitalization; better spacing
+Version 3: respect plurals and verb forms
 
 Version 4: only use words that are the same part of speech.
 
