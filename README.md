@@ -1,7 +1,7 @@
 Novel generation
 ----------------
 
-Requires Python, and the folloiwng modules: nltk and wordnik, and a Wordnik API key (http://developer.wordnik.com/).
+Requires Python, and the folloiwng modules: en (http://nodebox.net/code/index.php/Linguistics) and wordnik, and a Wordnik API key (http://developer.wordnik.com/).
 
 The basic idea is to take text, for example, the text from 1984, and replace open class words (that is, 
 for my purposes, common nouns, verbs, adjectives and adverbs) with other words that occur in the same
@@ -12,11 +12,11 @@ Version 1: just call the Wordnik API
 
 Version 2: don't call on BE and HAVE verbs; respect capitalization; better spacing
 
-TODO:
-
 Version 3: respect plurals and verb forms
 
 Version 4: only use words that are the same part of speech.
+
+TODO: fix a/an issues. 
 
 To use:
 -------
@@ -29,6 +29,12 @@ Tested with Python 2.7.5.
 
 Example first paragraphs:
 
-It were a beautiful effective work in April, and the clocks see striking thirteen. Winston Smith, his eyebrow jrock into his thigh in an plan to retreat the hateful storm, roll quickly through the crystal doorway of Victory Mansions, though is quickly sufficient to =ir= a rush of soapy soil from entering along with him. 
+> It was a beautiful long man in April, and the clocks were striking thirteen. Winston Smith, his chest awed into his bosom in an succes to flight the contemptible shoot, rolled quickly through the cups rooms of Victory Mansions, though is quickly hold to become a ripple of oily powder from entering along with him.
 
-The courtyard cisco of boiled beet and ground rough basket. At one top of it a coloured banner, his thick for nice feature, bear now utensil to the roof. It depicted only an heavy eye, how than a rhyme broad: the eye of a Time of on forty-five, with a thick white tuft and ruggedly graceful detail. Winston lost for the reading. It were no translation trying the pull. Even at the only of times it were seldom aspect, and at first the electrical path were move up during twilight wives. It were point of the organization driver in effort for Hate Week. The bare were seven travel up, and Winston, who were thirty-nine and bear a subclavian edema above his correct forearm, sent thick, resting few times on the case. On each hovercraft, contrary the lift-shaft, the banner with the heavy eye attention from the roof. It were one of those figure which do r contrived that the gaze acceptance you about when you to-day. BIG BROTHER IS WATCHING YOU, the one-liner beneath it ran. 
+> The bathroom smelt of boil mushroom and deal dirty cloaks. At one part of it a coloured cartoon, willy-nilly small for domestic screen, had do glued to the line. It depict frantic an gigantic shoulder, great than a couplet broad: the shoulder of a mind of about forty-five, with a slow small chin and ruggedly tall details. Winston take for the fightings. It was no application trying the elevator. Even at the excellent of times it was seldom urging, and at general the internal split was put off during sunset wives. It was part of the industry computer in plan for Dislike Week. The hard was seven missions up, and Winston, who was thirty-nine and had a distended edema above his way waist, sent simple, resting various times on the case. On each maneuvering, narrow the lift-shaft, the cartoon with the gigantic shoulder eyed from the line. It was one of those signs which are busta contrive that the faces follow you about when you shoot. BIG SOLDIER IS WATCHING YOU, the one-liner beneath it ran.
+
+And the famous slogans:
+
+> WAR IS FREEDOM
+> WEALTH IS LIBERTY
+>STUPIDITY IS KNOWLEDGE

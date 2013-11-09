@@ -37,3 +37,6 @@ nosetests.xml
 
 # original text
 text
+
+# en module
+en
